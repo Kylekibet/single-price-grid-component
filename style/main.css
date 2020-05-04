@@ -13,7 +13,7 @@ body {
     font-family: 'Karla', sans-serif;
 }
 
-div {
+.container {
     display: flex;
     flex-direction: column;
     width: 60%;
