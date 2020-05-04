@@ -14,8 +14,20 @@ body {
 }
 
 .container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container div{
+    width: 550px;
+}
+
+
+.mini-container {
     display: flex;
-    flex-direction: column;
-    width: 60%;
-    margin: auto;
+    flex-direction: row;
+}
+
+.sm-container {
+    width: 275px;
 }
