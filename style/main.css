@@ -2,7 +2,7 @@
     --background-color: hsl(204, 43%, 93%);
 }
 
-* {
+*, *::after {
     margin: 0;
     padding: 0;
 }
@@ -19,29 +19,39 @@ main {
     width: 100vw;
 }
 
-.container {
+#container {
     margin: auto;
-}
-
-div{
     width: 660px;
-    background-color: aliceblue;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 15px #888888
+}
+
+.space {
+    padding: 25px;
 }
 
 
-.mini-container {
+#container > .mini-container {
     display: flex;
     flex-direction: row;
+    background-color: rgb(247, 247, 247);
+}
+
+.mini-container:first-child {
+    padding: 20px 0;
 }
 
 .sm-container {
-    width: 330px;
+    display: flex;
+    width: 50%;
 }
+
 .cyan {
-    background-color: hsl(179, 62%, 43%);
+    background-color: hsl(179, 62%, 60%);
 }
 .light-gray {
-    background-color: hsl(218, 22%, 67%);
+    background-color: hsl(179, 62%, 70%);
 }
 ul li {
     list-style-type: none;
